@@ -1,0 +1,23 @@
+{
+  "name": "2021-quiz-app",
+  "version": "1.0.0",
+  "description": "my first Quiz App",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleLinde/2021-Quiz-App.git"
+  },
+  "author": "Nicole Linde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleLinde/2021-Quiz-App/issues"
+  },
+  "homepage": "https://github.com/NicoleLinde/2021-Quiz-App#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
