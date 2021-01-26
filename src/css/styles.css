@@ -15,7 +15,7 @@ main {
     background-color:
 }
 
-.Box {
+.card {
      border: solid;
      text-align: center;
      display:flex;
@@ -23,7 +23,7 @@ main {
      margin: 8%;
 }
 
-.btn {
+.card__btn--Submit {
     background-color: #464159;
     border: none;
     color: white;
@@ -35,10 +35,10 @@ main {
     transition: 0.3s;
   }
   
-  .btn:hover {opacity: 1}
+  .card__btn--Submit:hover {opacity: 1}
 
 
-  .btn1 {
+  .card__btn--Answer {
     background-color: #8bbabb;
     border: none;
     color: #464159;
@@ -50,9 +50,9 @@ main {
     transition: 0.3s;
   }
   
-  .btn1:hover {opacity: 1}
+  .card__btn--Answer:hover {opacity: 1}
 
-footer {
+.card__footer{
     position: fixed;
     left: 0;
     bottom: 0;
