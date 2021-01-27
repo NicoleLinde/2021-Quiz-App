@@ -1,0 +1,10 @@
+
+  .card__profile--pic {
+    width: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    top:7%;
+    left:7%;
+    background-image: radial-gradient(transparent, rgba(26, 34, 49), url(https://www.dsogaming.com/wp-content/uploads/2015/06/The-Witcher-3-Geraltl.jpg)
+}
+

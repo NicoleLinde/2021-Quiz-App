@@ -1,0 +1,22 @@
+
+
+.card__footer{
+  
+    background-image:linear-gradient(rgb(14, 6, 6), #5c0509);
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+    
+   
+    
+    
+.icon {
+    max-width: 1rem;
+    
+}

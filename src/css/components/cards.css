@@ -1,0 +1,43 @@
+.card {
+    border: solid;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px  #3d0306;
+    position:relative;
+    background-image: linear-gradient(rgb(26, 34, 49), white);
+}
+
+.card__btn--Submit {
+   background-color: rgb(26, 34, 49);
+   color: white;
+   
+ }
+ 
+ .card__btn--Submit:hover {opacity: 1}
+
+
+ .card__btn--Answer {
+   background-color:  #3d0306;
+   color: white;
+ }
+ 
+ .card__btn--Answer:hover {opacity: 1}
+
+ .bookmark {
+     max-width: 10%;
+     position:absolute;
+     right: 5%;
+     top: -15px;
+     color: #5c0509);
+ }
+
+
+.card__text {
+    margin: 10px 10px;
+    min-width: 40%;
+  
+}
+     

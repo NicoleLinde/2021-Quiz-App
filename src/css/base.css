@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3
+p {
+    margin:0;
+}
+
+body{
+    font-size: 1.25rem ;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-image: url(https://www.witcher-game.de/sites/www.witcher-game.de/files/wallpaper_3_1920x1200.jpg);
+}
+
+h1 {
+    color: #f1f1f1;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    text-shadow:8px 8px 6px #3d0306;
+    font-size: 3.5rem;
+    margin-top: 3%;
+}
+  
+ul {
+    list-style: none;
+}
+
+
+
+h2 {
+    color: #f1f1f1;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    text-shadow:8px 8px 6px #3d0306;
+    font-size: 2rem;
+}
+
+
+
+h3 {
+    margin: 3rem auto;
+    font-weight: bold;
+    color: white;
+    text-shadow: 8px 8px 6px rgb(26, 34, 49); 
+
+}

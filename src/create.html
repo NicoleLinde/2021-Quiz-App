@@ -10,25 +10,29 @@
 </head>
 <body>
     <header>
-        <h1>Create</h1>
+        <h1 class="mtb-3">Create</h1>
     </header>
 <main>
-    <label for="question">Trage Deine Frage ein!</label>
-    <textarea id="question " name="question"
-            rows="5" cols="auto">
-        </textarea>
-<br>
-        <label for="question">Trage Deine Frage ein!</label>
-        <textarea id="question " name="question"
-                rows="5" cols="auto">
-            </textarea>
-    
-            <button class=btn>Submit</button>
+    <section class="card">
+    <label class="question" for="question">Trage Deine Frage ein!</label>
+    <textarea class="card__text" id="question " name="question"
+            rows="auto" cols="auto">
+        </textarea> 
+        <button class="card__btn--Submit btn-style">Submit</button>
+   </section>
+   <section class="card">
+        <label class="question" for="question">Trage Deine Frage ein!</label>
+        <textarea class="card__text" id="question" name="question"
+                rows="auto" cols="auto">
+            </textarea> 
+            <button class="card__btn--Submit btn-style">Submit</button>
+    </section>
+           
 </main>
 </body>
-<footer>
-    <a href="bookmarks.html">Bookmark</a>
-    <a href="create.html">Create</a>
-    <a href="profile.html">Profile</a>
+<footer class="card__footer">
+    <a href="bookmarks.html"><img class="icon" src="images/bookmark_s.png" alt="bookmark-icon"></a>
+    <a href="index.html"><img class="icon" src="images/home.svg" alt="home-icon"></a>
+    <a href="profile.html"><img class="icon" src="images/Profile-ICon.png" alt="user-icon"></a>
 </footer>
 </html>
