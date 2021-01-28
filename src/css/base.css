@@ -12,6 +12,7 @@ p {
     margin:0;
 }
 
+
 body{
     font-size: 1.25rem ;
     line-height: 1.5;
@@ -42,7 +43,7 @@ h2 {
     color: #f1f1f1;
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
-    text-shadow:8px 8px 6px #3d0306;
+    text-shadow:8px 10px 5px #3d0306;
     font-size: 2rem;
 }
 
